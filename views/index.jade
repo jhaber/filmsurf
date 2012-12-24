@@ -2,4 +2,12 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  section(id='section-search')
+    div(class='container')
+      div(class='row-fluid')
+        div(class='span12 pagination-centered')
+          form(class='form-search')
+            input(id='search', type='text', class='search-query', autocomplete='off')
+  script(type='text/javascript', src='/scripts/jquery-1.8.3.min.js')
+  script(type='text/javascript', src='/scripts/bootstrap.min.js')
+  script(type='text/javascript', src='/scripts/search.js')
