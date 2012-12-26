@@ -36,3 +36,7 @@ a {
   border-color: #9ecaed;
   box-shadow: 0 0 15px #9ecaed;
 }
+#container-results div {
+  margin-left: 0;
+  width: 154px;
+}
